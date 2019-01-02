@@ -1,7 +1,3 @@
-// import * as tf from "@tensorflow/tfjs";
-
-// Optional Load the binding:
-// Use '@tensorflow/tfjs-node-gpu' if running with GPU.
 import * as tf from "@tensorflow/tfjs";
 import "@tensorflow/tfjs-node";
 import { CustomCallbackConfig, Logs } from "@tensorflow/tfjs";

@@ -1,0 +1,28 @@
+{
+  "name": "test-tensorflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "webpack",
+    "serve": "nodemon dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^0.2.1",
+    "nodemon": "^1.18.9"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "concurrently": "^4.1.0",
+    "ts-loader": "^5.3.2",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.3",
+    "webpack-clean": "^1.2.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-node-externals": "^1.7.2",
+    "webpack-shell-plugin-next": "^0.6.4"
+  }
+}
